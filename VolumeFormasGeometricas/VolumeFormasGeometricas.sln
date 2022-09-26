@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolumeFormasGeometricas", "VolumeFormasGeometricas.csproj", "{9B5F7923-B423-4CDB-AC6C-22B0A27DCCCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B5F7923-B423-4CDB-AC6C-22B0A27DCCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5F7923-B423-4CDB-AC6C-22B0A27DCCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5F7923-B423-4CDB-AC6C-22B0A27DCCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5F7923-B423-4CDB-AC6C-22B0A27DCCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41792F51-9765-44DC-A7B5-0734CB8D0E27}
+	EndGlobalSection
+EndGlobal
