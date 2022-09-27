@@ -4,7 +4,7 @@ Desafio de c�digo proposto com o intuito de entender a utiliza��o de m�t
 foi proposto um fonte que abrangesse as principais formulas de volumes.</br>
 
 <div style="center"><br>
-  <img alt="avatar" align='right' width="240px" src="/bighead.svg">
+  <img alt="avatar" align='right' width="220px" src="/bighead.svg"/>
 </div>
 </br>
 
