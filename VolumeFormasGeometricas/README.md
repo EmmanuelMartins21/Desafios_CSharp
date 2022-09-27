@@ -1,7 +1,12 @@
-# Volumes de formas geométricas 
+# Volumes de formas geomï¿½tricas 
 
-Desafio de código proposto com o intuito de entender a utilização de métodos. Afim de documentar tipos distintos de volumes 
+Desafio de cï¿½digo proposto com o intuito de entender a utilizaï¿½ï¿½o de mï¿½todos. Afim de documentar tipos distintos de volumes 
 foi proposto um fonte que abrangesse as principais formulas de volumes.</br>
+
+<div style="center"><br>
+  <img alt="avatar" align='right' width="240px" src="/bighead.svg">
+</div>
+</br>
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0072b1?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuel-cosme-martins-bento-3963bb1b9/ 'Contato pelo LinkedIn')
 [![Gmail Badge](https://img.shields.io/badge/-gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:emmanuelbento6@gmail.com 'Contato via Email')

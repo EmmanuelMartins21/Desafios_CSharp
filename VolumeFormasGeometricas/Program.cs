@@ -16,14 +16,16 @@ public class Volumes
         int saida = 0;
         while (saida != 5)
         {
+            Console.WriteLine();
             Console.WriteLine("Digite 1 para ver o volume da esfera");
             Console.WriteLine("Digite 2 para ver o volume do cilindro");
             Console.WriteLine("Digite 3 para ver o volume do cone");
             Console.WriteLine("Digite 4 para ver o volume do cubo");
             Console.WriteLine("Digite 5 para sair");
+            Console.WriteLine();
             string escolha = Console.ReadLine();
 
-            if (string.IsNullOrEmpty(escolha.ToString()))
+            if (string.IsNullOrEmpty(escolha))
             {
                 Console.WriteLine(" Opcao errada, deseja escolher novamente? Digite S para sim e N para Nao");
                 escolhaErrada = Console.ReadLine();
@@ -62,7 +64,7 @@ public class Volumes
             Console.WriteLine("Digite o raio");
             raio = double.Parse(Console.ReadLine()); // Leitura do raio
 
-            if(raio.ToString() == null) VolumeEsfera(); // Se não digitar  o raio, chamará o metodo novamente
+            if(String.IsNullOrEmpty(raio.ToString())) VolumeEsfera(); // Se não digitar  o raio, chamará o metodo novamente
 
             volume = ((4 / 3.0) * pi * Math.Pow(raio, 3));
 
@@ -84,12 +86,19 @@ public class Volumes
             Console.WriteLine("Digite o raio");
             raio = double.Parse(Console.ReadLine()); // Leitura do raio.
 
-            if (raio.ToString() == null) VolumeCilindro();
+            if(String.IsNullOrEmpty(raio.ToString())) VolumeCilindro();
 
             Console.WriteLine("Digite a altura");
             altura = double.Parse(Console.ReadLine());
 
-            if (altura.ToString() == null) VolumeCilindro();
+            if (String.IsNullOrEmpty(altura.ToString()))
+            {
+                Console.WriteLine("A altura não foi preenchida. Digite novamente");
+                altura = double.Parse(Console.ReadLine());
+
+                //Se o usuario errar duas vezes, chamará o metodo novemente
+                if (String.IsNullOrEmpty(altura.ToString())) VolumeCone(); 
+            }
             volume = (pi * Math.Pow(raio, 2)*altura);
 
             Console.WriteLine("VOLUME = {0:F3}", volume);
@@ -110,12 +119,19 @@ public class Volumes
             Console.WriteLine("Digite o raio");
             raio = double.Parse(Console.ReadLine()); // Leitura do raio
 
-            if (raio.ToString() == null) VolumeCone();
+            if (String.IsNullOrEmpty(raio.ToString())) VolumeCone();
 
             Console.WriteLine("Digite a altura");
             altura = double.Parse(Console.ReadLine());
 
-            if (altura.ToString() == null) VolumeCone();
+            if (String.IsNullOrEmpty(altura.ToString()))
+            {
+                Console.WriteLine("A altura não foi preenchida. Digite novamente");
+                altura = double.Parse(Console.ReadLine());
+
+                //Se o usuario errar duas vezes, chamará o metodo novemente
+                if (String.IsNullOrEmpty(altura.ToString())) VolumeCone(); 
+            }
             volume = (pi * Math.Pow(raio, 2) * altura)/3;
 
             Console.WriteLine("VOLUME = {0:F3}", volume);
