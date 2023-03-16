@@ -71,9 +71,8 @@ public class Volumes
             Console.WriteLine("VOLUME = {0:F3}", volume);
         }
         catch(Exception ex)
-        {
-             string mensagem  = ex.Message;
-            throw new Exception(mensagem);
+        {            
+            throw new Exception(ex.Message);
         }
         
     }
